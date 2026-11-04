@@ -1,4 +1,4 @@
-# Study Coach Version1
+# Study Coach Version #1
 
 A study coach that runs inside an AI agent. You put one instructions file in a folder with your course materials, point an agent at the folder, and it does the rest:
 
@@ -12,7 +12,7 @@ It works for any course, and it's built especially for hard STEM classes where y
 
 ## What you need
 
-- An AI agent that can **read and write files in a folder on your computer**, such as the Claude desktop app with a folder attached, or Claude Code.
+- An AI agent that can **read and write files in a folder on your computer**, such as the Claude desktop app with a folder attached, or Claude Code. (other options include chatgpt desktop, antigravity desktop etc)
 - Your course materials.
 
 ## Setup
@@ -93,10 +93,16 @@ You can read any of these. Leave them in the folder, because they're how the coa
 
 ## Tips
 
-- **Be honest** when it asks how confident you are. That's how it finds what you only think you know.
-- **Try every question before asking for help.** The coach is built around making you recall things, which is what makes them stick.
-- **Want to share your setup with a classmate?** Give them `coach_instructions.md`, `course_brief.md` and the course materials, but not your personal tracking files. Their coach will start fresh with them.
-- **Want to start over?** Tell it *"start over."*
+1. **The best advice I can give when using an agent for a purpose like this**  Use the voice mode of the agent you talk faster then you type and the more information you give it on how you are thinking the more you know your actual thought process and the more it can correct you (don't worry about typos it figures it out)
+2.  **Be honest** when it asks how confident you are. That's how it finds what you only think you know.
+3.   **Try every question before asking for help.** The coach is built around making you recall things, which is what makes them stick.
+4.    **Want to share your setup with a classmate?** Give them `coach_instructions.md`, `course_brief.md` and the course materials, but not your personal tracking files. Their coach will start fresh with them.
+5. **Want to start over?** Tell it *"start over."*
+6.  **What model to use** My current recommendations for each large ai lab
+- Openai__Terra 6.1 medium
+- Google__Flash 3.8 high
+- Anthropic__Sonnet 5.5 low
+- To see for yourself what model is the best to use visit https://artificialanalysis.ai and look at the models scores on your relevant area (aka engineering, coding, health etc) 
 
 ## How to get a free agent to use this with
 - Go to https://gemini.google/students/?utm_source=gemini&utm_medium=paid_media&utm_campaign=microsite_sem_students-sem-microsite-bkws_generic_generic_text&gclsrc=aw.ds&gad_source=1&gad_campaignid=24104565026&gbraid=0AAAAAC_C9PSoiowxVgIqkDqzOCOALT6VO
