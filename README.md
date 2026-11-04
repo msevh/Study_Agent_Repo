@@ -1,4 +1,4 @@
-# Study Coach
+# Study Coach Version1
 
 A study coach that runs inside an AI agent. You put one instructions file in a folder with your course materials, point an agent at the folder, and it does the rest:
 
@@ -21,11 +21,11 @@ It works for any course, and it's built especially for hard STEM classes where y
 
 **2. Download `coach_instructions.md`** from this repo and put it in the folder.
 
-**3. Add your course materials to the folder.** The more you add, the better the coach gets:
+**3. Add your course materials to the folder.** The more you add, the better the coach gets (although material that is irrelevant to exams I would skip or material you don't want to learn) (I personally put in the content that is most relevant to me getting good scores on tests and learning key ideas):
 - **Textbook or lecture notes**: what it teaches from
 - **Syllabus or course schedule**: what's covered and when the exams are
 - **Past tests, quizzes, homework or practice problems**: how your instructor asks questions and grades them
-- **Your graded work** (optional): shows exactly where you lose points
+- **Your graded work** (optional)(also graded work has the issue of possibly giving the agent handwritten content it doesn't interpret right leading to it being fed bad information on your understanding)(I personally don't do this): shows exactly where you lose points
 
 PDFs are fine.
 
@@ -34,6 +34,11 @@ PDFs are fine.
 ```
 Read coach_instructions.md in this folder and follow it. Start.
 ```
+**additional things to add to the first prompt, optional but recommended**
+- If you care more about certain materials or documents than others tell the agent before sending that in the same prompt.
+- You can add additional information in this first prompt about where you are in the course which I highly recommend if you are midway through a course.
+- What your instructor has said about the exam ("cumulative," "no proofs," "formula sheet allowed," "chapter 6 is heavily weighted")
+- Your goal and deadline ("final on Dec 8, I want an A," or "I want to really understand this for next semester")
 
 ## What happens the first time
 
@@ -92,3 +97,9 @@ You can read any of these. Leave them in the folder, because they're how the coa
 - **Try every question before asking for help.** The coach is built around making you recall things, which is what makes them stick.
 - **Want to share your setup with a classmate?** Give them `coach_instructions.md`, `course_brief.md` and the course materials, but not your personal tracking files. Their coach will start fresh with them.
 - **Want to start over?** Tell it *"start over."*
+
+## How to get a free agent to use this with
+- Go to https://gemini.google/students/?utm_source=gemini&utm_medium=paid_media&utm_campaign=microsite_sem_students-sem-microsite-bkws_generic_generic_text&gclsrc=aw.ds&gad_source=1&gad_campaignid=24104565026&gbraid=0AAAAAC_C9PSoiowxVgIqkDqzOCOALT6VO
+- After you claim google ai pro for free download antigravity 2.0 on this site https://antigravity.google/download
+- Chose this download not the cli or ide or any other download. <img width="510" height="251" alt="Screenshot 2026-11-04 at 15 06 02" src="https://github.com/user-attachments/assets/9d478ac1-ce2c-4820-8b61-7d5f0761d6ba" /> 
+
