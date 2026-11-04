@@ -1,4 +1,4 @@
-# Study Coach Version #1
+# Study Coach
 
 A study coach that runs inside an AI agent. You put one instructions file in a folder with your course materials, point an agent at the folder, and it does the rest:
 
@@ -104,8 +104,13 @@ You can read any of these. Leave them in the folder, because they're how the coa
 - Anthropic__Sonnet 5.5 low
 - To see for yourself what model is the best to use visit https://artificialanalysis.ai and look at the models scores on your relevant area (aka engineering, coding, health etc) 
 
-## How to get a free agent to use this with
+## Free agent #1
 - Go to https://gemini.google/students/?utm_source=gemini&utm_medium=paid_media&utm_campaign=microsite_sem_students-sem-microsite-bkws_generic_generic_text&gclsrc=aw.ds&gad_source=1&gad_campaignid=24104565026&gbraid=0AAAAAC_C9PSoiowxVgIqkDqzOCOALT6VO
 - After you claim google ai pro for free download antigravity 2.0 on this site https://antigravity.google/download
 - Chose this download not the cli or ide or any other download. <img width="510" height="251" alt="Screenshot 2026-11-04 at 15 06 02" src="https://github.com/user-attachments/assets/9d478ac1-ce2c-4820-8b61-7d5f0761d6ba" /> 
 
+## Free agent #2
+- Go to https://chatgpt.com/codex/students/
+- After you claim the credits to your chatgpt account download the chatgpt app here https://chatgpt.com/download/
+- You can use this in work mode or on the codex settings.
+- The usage will be limited to 2500 credits so to maximize usage I would recommend terra 6.1 on medium.
