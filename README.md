@@ -114,3 +114,6 @@ You can read any of these. Leave them in the folder, because they're how the coa
 - After you claim the credits to your chatgpt account download the chatgpt app here https://chatgpt.com/download/
 - You can use this in work mode or on the codex settings.
 - The usage will be limited to 2500 credits so to maximize usage I would recommend terra 6.1 on medium.
+
+## Free agent #3
+- If you are on Mac you could use muse by meta where you would get sufficient usage for free.
